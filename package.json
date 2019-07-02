@@ -1,0 +1,17 @@
+{
+  "name": "pgn",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "save": "^2.4.0",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "lint": "tslint ./src"
+  },
+  "types": "./dist/index.d.ts"
+}
